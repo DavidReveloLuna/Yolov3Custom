@@ -1,5 +1,5 @@
-# YoloV3_video
-En este proyecto implementaremos la técnica de detección de objetos usando YOLO_V3 en tiempo real.
+# YoloV3 custom training video
+En este proyecto se presenta el entrenamiento con tu propio dataset para YOLOv3
 
 ## Artículo original:
 https://pjreddie.com/media/files/papers/YOLOv3.pdf
@@ -8,7 +8,7 @@ https://pjreddie.com/media/files/papers/YOLOv3.pdf
 
 ### Crear entorno en conda
 
-  $ conda create -n YoloEntorno anaconda python=3.6
+  $ conda create -n YoloCustom anaconda python=3.6
   
   $ pip install opencv-python 
   
@@ -28,25 +28,9 @@ https://pjreddie.com/media/files/papers/YOLOv3.pdf
 
 
 ### Implementar YOLOv3
-  $git clone https://github.com/DavidReveloLuna/YoloV3_video.git
-  
-Descargar los siguientes archivos y copiarlos en la carpeta weights
+  $git clonehttps://github.com/DavidReveloLuna/Yolov3Custom.git
 
-### Download weights for vanilla YOLOv3
-https://pjreddie.com/media/files/yolov3.weights
-### Download weights for tiny YOLOv3
-https://pjreddie.com/media/files/yolov3-tiny.weights
-### Download weights for backbone network
-https://pjreddie.com/media/files/darknet53.conv.74
 
-## Probar la detección
-
-### En imágenes
-  $ python detect.py --image_folder data/samples/
-
-### En video
-  $ python detect_cam.py
-  
 ### Basado en el trabajo de Erik Linder
 https://github.com/eriklindernoren
 
