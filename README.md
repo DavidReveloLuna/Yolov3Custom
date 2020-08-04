@@ -28,7 +28,9 @@ https://pjreddie.com/media/files/papers/YOLOv3.pdf
 
 ### Preparar Dataset
   Ejecutar labelImg.py
+  
   $ cd labelImg
+  
   $ python labelImg.py
   
   Se deben obtener los archivos labels (.txt) de las imagenes de tu dataset
@@ -40,13 +42,19 @@ https://pjreddie.com/media/files/papers/YOLOv3.pdf
   Finalmente se obtienen los siguientes archivos
   
   En data/custom/images las imagenes del dataset
+  
   En data/custom/labels los labels .txt del dataset
+  
   En data/ los archivos train.txt y valid.txt
+  
   En data/ el archivo classes.names con los nombres de las clases del dataset
+  
   En la carpeta config/ el archivo .cfg que corresponda con el número de clases de nuestro dataset
+  
   En la carpeta config/ modificar el archivo custom.data con el número de clases del dataset
   
   Para el archivo .cfg abrir el archivo bash .sh y modificar el parámetro NUM_CLASSES=3
+  
   Ejecutarlo usango Git para windows
   
   Si no tienes instalado Git para windows lo puedes descargar en el siguieinte enlace
