@@ -33,7 +33,7 @@ if __name__ == "__main__":
     parser.add_argument("--n_cpu", type=int, default=8, help="number of cpu threads to use during batch generation")
     parser.add_argument("--img_size", type=int, default=416, help="size of each image dimension")
     parser.add_argument("--checkpoint_interval", type=int, default=1, help="interval between saving model weights")
-    parser.add_argument("--evaluation_interval", type=int, default=1, help="interval evaluations on validation set")
+    parser.add_argument("--evaluation_interval", type=int, default=5, help="interval evaluations on validation set")
     parser.add_argument("--compute_map", default=False, help="if True computes mAP every tenth batch")
     parser.add_argument("--multiscale_training", default=True, help="allow for multi-scale training")
     opt = parser.parse_args()
@@ -175,4 +175,4 @@ if __name__ == "__main__":
             print(f"---- mAP {AP.mean()}")
 
         if epoch % opt.checkpoint_interval == 0:
-            torch.save(model.state_dict(), f"checkpoints/yolov3_ckpt_%d.pth" % epoch)
+            torch.save(model.state_dict(), f"yolov3_ckpt_%d.pth" % epoch)

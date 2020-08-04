@@ -1,6 +1,6 @@
 #!/bin/bash
 
-NUM_CLASSES=3
+NUM_CLASSES=52
 
 echo "
 [net]
@@ -791,4 +791,4 @@ jitter=.3
 ignore_thresh = .7
 truth_thresh = 1
 random=1
-" >> yolov3-custom3C.cfg
+" >> yolov3-custom52C.cfg
