@@ -9,22 +9,12 @@ https://pjreddie.com/media/files/papers/YOLOv3.pdf
 ### Crear entorno en conda
 
   	$ conda create -n YoloCustom anaconda python=3.6
+	
+	$ conda activate YoloCustom
   
-  	$ pip install opencv-python 
-  
-  	$ pip install numpy
+  	$ pip install opencv-python numpy matplotlib tensorboard terminaltables pillow tqdm
   
   	$ conda install pytorch==1.1.0 torchvision==0.3.0 cudatoolkit=10.0 -c pytorch
-  
-  	$ pip install matplotlib
-  
-  	$ pip install tensorboard
-  
-  	$ pip install terminaltables
-  
-  	$ pip install pillow
-  
-  	$ pip install tqdm
 
 ### Preparar Dataset
   Ejecutar labelImg.py
