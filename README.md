@@ -84,7 +84,7 @@ https://pjreddie.com/media/files/papers/YOLOv3.pdf
     from PIL import Image, ImageOps, ImageEnhance, __version__ as PILLOW_VERSION
     
 	
-  $!python train.py --model_def config/yolov3-custom3C.cfg --data_config config/custom.data --epochs 200 --batch_size 4 --pretrained_weights weights/darknet53.conv.74
+  	$!python train.py --model_def config/yolov3-custom3C.cfg --data_config config/custom.data --epochs 200 --batch_size 4 --pretrained_weights weights/darknet53.conv.74
   
 ### Prueba local en imágen y video
 
