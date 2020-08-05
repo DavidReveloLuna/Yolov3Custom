@@ -64,6 +64,14 @@ https://pjreddie.com/media/files/papers/YOLOv3.pdf
   	$import urllib.request
 
   	$urllib.request.urlretrieve('https://pjreddie.com/media/files/darknet53.conv.74','/content/Yolov3Custom/weights/darknet53.conv.74')
+	
+	$from google.colab import drive
+        
+	$drive.mount('/content/drive')
+	
+	$!cp -r "/content/drive/My Drive/Desarrollos/YoloCustom/custom" "/content/Yolov3Custom/data"
+        
+	$!cp -r "/content/drive/My Drive/Desarrollos/YoloCustom/config" "/content/Yolov3Custom"
 
   Entrar al directorio /usr/local/lib/libpackages/torchvision/transforms/functional.py
   
