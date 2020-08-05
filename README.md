@@ -93,7 +93,7 @@ https://pjreddie.com/media/files/papers/YOLOv3.pdf
    
    	python detectC.py --image_folder data/samplesC/ --model_def config/yolov3-custom3C.cfg --weights_path checkpoints/yolov3_ckpt_252.pth --class_path data/custom/classes.names
    
-   	python detect_cam.py --model_def config/yolov3-customM.cfg --weights_path checkpoints/yolov3_ckpt_252.pth --class_path data/custom/classes.names --conf_thres 0.6
+   	python detect_cam.py --model_def config/yolov3-custom3C.cfg --weights_path checkpoints/yolov3_ckpt_252.pth --class_path data/custom/classes.names --conf_thres 0.6
    
 
 ### Basado en el trabajo de Erik Linder
