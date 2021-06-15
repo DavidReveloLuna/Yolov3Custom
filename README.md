@@ -102,4 +102,5 @@ https://pjreddie.com/media/files/papers/YOLOv3.pdf
 ### Dataset original
    https://www.tooploox.com/blog/card-detection-using-yolo-on-android
 
-
+# **Canal de Youtube**
+[Click aquì pare ver mi canal de YOUTUBE](https://www.youtube.com/channel/UCr_dJOULDvSXMHA1PSHy2rg)
